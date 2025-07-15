@@ -6,7 +6,7 @@ A organização dos arquivos segue a estrutura modular do curso, com uma pasta p
 
 ---
 
-## 📚 Estrutura do Curso
+## 📚 Estrutura do curso
 
 ### 🧱 Fundamentos básicos
 
