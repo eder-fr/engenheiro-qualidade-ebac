@@ -67,7 +67,7 @@ A organização dos arquivos segue a estrutura modular do curso, com uma pasta p
 ## 📌 Observações
 
 - Cada módulo pode conter um ou mais arquivos ou pastas com os exercícios propostos.
-- Os nomes dos arquivos seguem o padrão: `exercicio-01`, `exercicio-02`, etc.
+- Os nomes dos arquivos seguem o padrão: `modulo01`, `modulo02`, etc.
 - Sempre que necessário, há um `README.md` complementar dentro das pastas para explicações adicionais.
 
 ---
