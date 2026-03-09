@@ -6,9 +6,9 @@ A organização dos arquivos segue a estrutura modular do curso, com uma pasta p
 
 ---
 
-## 📚 Estrutura do curso
+## Estrutura do curso
 
-### 🧱 Fundamentos básicos
+### Fundamentos básicos
 
 - **modulo-01**: O profissional de Qualidade e suas habilidades  
 - **modulo-02**: Qualidade de Software e Network  
@@ -16,7 +16,7 @@ A organização dos arquivos segue a estrutura modular do curso, com uma pasta p
 - **modulo-04**: Técnicas de teste  
 - **modulo-05**: Planejamento e estratégia de teste  
 
-### ⚡ Agilidade e adaptabilidade
+### Agilidade e adaptabilidade
 
 - **modulo-06**: Metodologias ágeis e Teste ágil  
 - **modulo-07**: Fluxo de trabalho do ágil  
@@ -24,7 +24,7 @@ A organização dos arquivos segue a estrutura modular do curso, com uma pasta p
 - **modulo-09**: Testes de UI  
 - **modulo-10**: GIT  
 
-### 🤖 Automações de UI e testes de API
+### Automações de UI e testes de API
 
 - **modulo-11**: Automação de UI com Cypress 1  
 - **modulo-12**: Automação de UI com Cypress 2  
@@ -32,7 +32,7 @@ A organização dos arquivos segue a estrutura modular do curso, com uma pasta p
 - **modulo-14**: Testes automatizados de API REST  
 - **modulo-15**: DevOps  
 
-### 📱 Testes Mobile e domínio em automação
+### Testes Mobile e domínio em automação
 
 - **modulo-16**: Testes mobile 1  
 - **modulo-17**: Testes mobile 2  
@@ -41,7 +41,7 @@ A organização dos arquivos segue a estrutura modular do curso, com uma pasta p
 - **modulo-20**: Programando com JavaScript  
 - **modulo-21**: Testes de unidade  
 
-### 🔬 Práticas avançadas em Qualidade de Software
+### Práticas avançadas em Qualidade de Software
 
 - **modulo-22**: Automação de UI com Cypress 1  
 - **modulo-23**: Automação de UI com Cypress 2  
@@ -58,13 +58,13 @@ A organização dos arquivos segue a estrutura modular do curso, com uma pasta p
 
 ---
 
-### 🎓 Projeto final
+### Projeto final
 
 - **projeto**: Projeto integrador com aplicação prática dos conhecimentos adquiridos ao longo do curso.
 
 ---
 
-## 📌 Observações
+## Observações
 
 - Cada módulo pode conter um ou mais arquivos ou pastas com os exercícios propostos.
 - Os nomes dos arquivos seguem o padrão: `modulo01`, `modulo02`, etc.
@@ -72,4 +72,4 @@ A organização dos arquivos segue a estrutura modular do curso, com uma pasta p
 
 ---
 
-📁 Sinta-se à vontade para navegar, clonar ou contribuir!
+Sinta-se à vontade para navegar!
