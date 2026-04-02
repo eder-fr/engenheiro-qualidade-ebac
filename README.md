@@ -2,7 +2,7 @@
 
 Este repositório contém as atividades e exercícios desenvolvidos durante o curso de **Engenheiro de Qualidade de Software** da **EBAC (Escola Britânica de Artes Criativas e Tecnologia)**.
 
-A organização dos arquivos segue a estrutura modular do curso, com uma pasta para cada módulo, contendo os respectivos exercícios práticos, códigos e anotações.
+A organização dos arquivos segue a estrutura modular do curso, com uma pasta para cada módulo, para respectivos exercícios práticos, códigos e anotações.
 
 ---
 
@@ -61,15 +61,3 @@ A organização dos arquivos segue a estrutura modular do curso, com uma pasta p
 ### Projeto final
 
 - **projeto**: Projeto integrador com aplicação prática dos conhecimentos adquiridos ao longo do curso.
-
----
-
-## Observações
-
-- Cada módulo pode conter um ou mais arquivos ou pastas com os exercícios propostos.
-- Os nomes dos arquivos seguem o padrão: `modulo01`, `modulo02`, etc.
-- Sempre que necessário, há um `README.md` complementar dentro das pastas para explicações adicionais.
-
----
-
-Sinta-se à vontade para navegar!
