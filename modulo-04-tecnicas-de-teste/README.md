@@ -34,7 +34,7 @@ Exemplo:
 - Classes:
   - < 16 → inválido  
   - 16 a 80 → válido  
-  - > 80 → inválido  
+  - '> 80 → inválido'
 
 Benefício: reduz quantidade de testes mantendo boa cobertura
 
