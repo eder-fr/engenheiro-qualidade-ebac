@@ -32,9 +32,9 @@ Compreender e aplicar as principais técnicas de teste de caixa preta para cria�
 Exemplo:
 - Idade válida: 16 a 80 anos  
 - Classes:
-  - < 16 → inválido  
+  - \< 16 → inválido  
   - 16 a 80 → válido  
-  - '> 80 → inválido'
+  - \> 80 → inválido
 
 Benefício: reduz quantidade de testes mantendo boa cobertura
 
