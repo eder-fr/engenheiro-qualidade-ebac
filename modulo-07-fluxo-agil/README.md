@@ -16,12 +16,12 @@ Compreender o fluxo de trabalho ágil, eventos do Scrum, critérios de qualidade
 - Sprint Retrospective
 
 **Opcionais (mas valiosos):**
-- Refinamento de Backlog
+- Refinamento de backlog
 - Três amigos
 
 ---
 
-### Objetivos dos Eventos
+### Objetivos dos eventos
 - Padronizar a comunicação
 - Reduzir reuniões desnecessárias
 - Garantir feedback contínuo
@@ -32,7 +32,7 @@ Compreender o fluxo de trabalho ágil, eventos do Scrum, critérios de qualidade
 
 ## Início do Projeto
 
-### Papéis do Time
+### Papéis do time
 - **Scrum Master (SM):** apresenta a metodologia e facilita o processo
 - **Product Owner (PO):** apresenta o produto, objetivos e backlog
 - **Desenvolvedores:** compartilham expertise técnica
@@ -40,7 +40,7 @@ Compreender o fluxo de trabalho ágil, eventos do Scrum, critérios de qualidade
 
 ---
 
-## Pré-jogo (Setup Inicial)
+## Pré-jogo (Setup inicial)
 
 - Definição de horários e rituais
 - Treinamento de ferramentas e processos
@@ -78,7 +78,7 @@ Critérios para considerar uma entrega concluída:
 
 ---
 
-## Planning e Estimativas
+## Planning e estimativas
 
 ### Objetivo da Planning
 - Definir o escopo da Sprint
@@ -100,7 +100,7 @@ Cartas especiais:
 
 ---
 
-### T-Shirt Size
+### T-shirt Size
 
 | Tamanho | Estimativa |
 |--------|-----------|
@@ -124,7 +124,7 @@ Cartas especiais:
 
 ---
 
-## Daily (Reunião Diária)
+## Daily (Reunião diária)
 
 ### Objetivo
 Alinhar o time para as próximas 24 horas com foco na meta da Sprint.
@@ -165,7 +165,7 @@ Promover melhoria contínua do time.
 
 ---
 
-## Refinamento de Backlog
+## Refinamento de backlog
 
 - Preparar histórias para próxima Sprint
 - Detalhar requisitos
@@ -182,7 +182,7 @@ Promover melhoria contínua do time.
 
 ---
 
-## Métricas Ágeis
+## Métricas ágeis
 
 ### Principais:
 - Burndown da Sprint
