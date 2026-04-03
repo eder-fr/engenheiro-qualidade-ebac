@@ -13,7 +13,7 @@ Compreender o conceito de qualidade de software, sua percepção pelo usuário, 
   - **Objetiva** → baseada em requisitos e padrões
   - **Subjetiva** → baseada na percepção do usuário
 
-📌 Definições importantes:
+Definições importantes:
 - **ISO:** qualidade é a totalidade de características que satisfazem necessidades explícitas e implícitas  
 - **ISTQB:** grau em que um sistema atende requisitos e expectativas do usuário  
 - **ISO/IEC 9126 / 25010:** qualidade envolve atributos como:
