@@ -136,8 +136,8 @@ Objetivo:
 ### Plano de Desenvolvimento Individual (PDI)
 - Criação de plano de ação baseado na autoavaliação
 - Seleção de:
-  - 2 Soft Skills a desenvolver
-  - 2 Hard Skills a desenvolver
+  - 2 Soft skills a desenvolver
+  - 2 Hard skills a desenvolver
 
 Aplicação do 5W2H:
 - Definição de ações práticas e alcançáveis
