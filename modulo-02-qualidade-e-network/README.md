@@ -1,110 +1,201 @@
-# Módulo 02 - Qualidade de Software e Network
+# Módulo 02 - Qualidade de Software, Padrões e Networking
 
 ## Objetivo do módulo
-Compreender o conceito de qualidade de software, sua importância no desenvolvimento de produtos digitais, os princípios de Garantia da Qualidade (QA), além de introduzir práticas de networking e o uso do GitHub como ferramenta profissional.
+Compreender o conceito de qualidade de software, sua percepção pelo usuário, os princípios de garantia da qualidade (QA), benefícios de investir em qualidade, além de conhecer padrões internacionais e a importância do networking e do GitHub como ferramenta de portfólio.
 
 ---
 
 ## O que aprendi
 
-- Conceito de Qualidade:
-  - Qualidade como a capacidade de atender requisitos e expectativas do cliente
-  - Qualidade percebida está diretamente ligada à satisfação do usuário
-  - Influência de fatores subjetivos como experiência e expectativa
+### Conceito de Qualidade
+- Qualidade está relacionada à capacidade de um produto ou serviço atender às necessidades e expectativas do cliente
+- Pode ser:
+  - **Objetiva** → baseada em requisitos e padrões
+  - **Subjetiva** → baseada na percepção do usuário
 
-- Definições importantes:
-  - ISO: qualidade como conjunto de características que satisfazem necessidades
-  - ISTQB: grau em que requisitos e expectativas são atendidos
-  - Modelos como ISO/IEC 9126 (atual ISO 25010)
+📌 Definições importantes:
+- **ISO:** qualidade é a totalidade de características que satisfazem necessidades explícitas e implícitas  
+- **ISTQB:** grau em que um sistema atende requisitos e expectativas do usuário  
+- **ISO/IEC 9126 / 25010:** qualidade envolve atributos como:
+  - Confiabilidade
+  - Usabilidade
+  - Eficiência
+  - Manutenibilidade
+  - Portabilidade
 
-- Garantia de Qualidade (QA) vs Controle de Qualidade (QC):
-  - QA (Quality Assurance):
-    - Foco em processos
-    - Atuação preventiva
-    - Garantia de conformidade
-  - QC (Quality Control):
-    - Foco no produto
-    - Identificação de defeitos
-    - Atuação corretiva
+---
 
-- Responsabilidades da Garantia de Qualidade:
-  - Definição e controle de processos
-  - Auditorias internas
-  - Gestão de mudanças
-  - Monitoramento de métricas
-  - Ações corretivas e preventivas
+### Qualidade percebida
+- Baseada na experiência do usuário
+- Relacionada à satisfação do cliente
 
-- Importância da Qualidade no desenvolvimento:
-  - Redução de custos com retrabalho
-  - Identificação precoce de defeitos
-  - Evita impactos negativos em produção
-  - Aumenta confiabilidade e satisfação do cliente
+Conceito-chave:
+/> Qualidade percebida = Satisfação do cliente
 
-- Custo do Bug:
-  - Quanto mais tarde o erro é encontrado, maior o custo
-  - Impactos incluem:
-    - Perda de clientes
-    - Danos à reputação
-    - Custos operacionais elevados
+---
 
-- Benefícios da Qualidade:
-  - Maior produtividade
-  - Padronização de processos
-  - Melhor tomada de decisão
-  - Escalabilidade
-  - Confiabilidade do produto
+### Garantia de Qualidade (QA)
+- Foco nos **processos**
+- Objetivo: garantir que os requisitos de qualidade serão atendidos
 
-- Padronização e Qualidade:
-  - Importância de processos bem definidos
-  - Redução de variações e inconsistências
-  - Aumento da eficiência operacional
+Características:
+- Preventiva (evita defeitos)
+- Atua durante todo o processo
+- Envolve auditorias e melhoria contínua
 
-- Principais padrões e normas:
-  - ISO
-  - IEEE
-  - ABNT
-  - ISO/IEC 25010
-  - CMMI
-  - SPICE (ISO 15504)
+---
 
-- Networking:
-  - Construção de rede de contatos profissionais
-  - Compartilhamento de conhecimento
-  - Participação em comunidades e eventos
-  - Importância para crescimento na carreira
+### Controle de Qualidade (QC)
+- Foco no **produto**
+- Objetivo: identificar defeitos antes de chegar ao cliente
 
-- Git e GitHub:
-  - Git como sistema de controle de versão
-  - GitHub como plataforma de hospedagem e colaboração
-  - Uso do GitHub como portfólio profissional
-  - Diferença entre Git e GitHub
+Diferença principal:
+- **QA → processo (prevenção)**
+- **QC → produto (detecção)**
+
+---
+
+### Responsabilidades da Garantia de Qualidade
+- Controle de processos e documentação
+- Gestão de mudanças
+- Auditorias internas
+- Monitoramento de métricas
+- Ações corretivas e preventivas
+- Análise de tendências de qualidade
+- Garantia de conformidade com padrões
+
+---
+
+### Benefícios da Qualidade
+- Redução de custos com retrabalho
+- Prevenção de falhas em produção
+- Aumento da confiabilidade do produto
+- Melhoria da imagem da empresa
+- Maior satisfação do cliente
+
+Impacto de falhas em produção:
+- Perda de clientes
+- Danos à reputação
+- Custos elevados
+- Impactos legais
+
+---
+
+### Padrões de Qualidade
+- Padronização garante consistência nos processos
+- Evita variações e retrabalho
+
+Objetivos:
+- Aumentar produtividade
+- Melhorar qualidade das entregas
+- Garantir conformidade
+- Facilitar escalabilidade
+
+---
+
+### Principais padrões e normas
+- ISO (International Organization for Standardization)
+- IEEE (Institute of Electrical and Electronics Engineers)
+- ABNT (Associação Brasileira de Normas Técnicas)
+
+Exemplos relevantes:
+- ISO/IEC 25010 (qualidade de software)
+- ISO/IEC/IEEE 29119 (testes de software)
+- CMMI
+- SPICE (ISO 15504)
+
+---
+
+### Networking
+- Construção de rede de contatos profissionais
+- Baseado em colaboração e troca de conhecimento
+
+Benefícios:
+- Oportunidades de trabalho
+- Aprendizado contínuo
+- Visibilidade profissional
+
+Boas práticas:
+- Participar de comunidades e eventos
+- Compartilhar conhecimento
+- Contribuir com outros profissionais
+- Utilizar redes sociais (ex: LinkedIn, GitHub)
+
+---
+
+### GitHub como ferramenta de QA
+- Plataforma de versionamento e colaboração
+- Utiliza o Git para controle de versões
+
+Importância:
+- Armazenamento de projetos
+- Portfólio profissional
+- Compartilhamento de código e estudos
+- Colaboração em projetos open source
+
+Diferencial para QA:
+- Publicação de projetos de testes
+- Automação de testes
+- Documentação (README)
+- Evidência prática de conhecimento
 
 ---
 
 ## Exercícios realizados
 
-- Análise dos conceitos de qualidade segundo diferentes padrões (ISO, ISTQB)
-- Comparação entre Garantia de Qualidade (QA) e Controle de Qualidade (QC)
-- Reflexão sobre impacto de bugs em produção
-- Estudo sobre padrões e normas de qualidade
-- Criação e configuração de conta no GitHub
-- Exploração inicial da plataforma como portfólio
+### Análise de qualidade de produto
+- Escolha de um produto do dia a dia
+- Avaliação sob a perspectiva de um Analista de Qualidade
+
+Critérios analisados:
+- Matéria-prima
+- Acabamento
+- Usabilidade
+- Durabilidade
+- Design
+- Experiência do usuário
+
+---
+
+### Elaboração de relatório técnico
+- Criação de documento estruturado
+- Aplicação de senso crítico na análise
+- Organização das informações seguindo boas práticas
+
+Aplicação de:
+- Normas ABNT
+- Escrita técnica
+- Estruturação de análise de qualidade
+
+---
+
+### Versionamento no GitHub
+- Criação de repositório
+- Upload do documento de análise
+- Compartilhamento do projeto
+
+Prática aplicada:
+- Uso do GitHub como portfólio
+- Organização de arquivos
+- Publicação de conteúdo técnico
 
 ---
 
 ## Ferramentas utilizadas
 
-- Git (controle de versão)
-- GitHub (hospedagem de código e portfólio)
-- Conceitos de normas ISO e padrões de qualidade
-- Práticas de networking profissional
+- Microsoft Word / Google Docs
+- Git e GitHub
+- Normas ABNT
+- Modelagem de análise de qualidade
+- Conceitos de QA e Qualidade de Software
 
 ---
 
 ## Insights relevantes
 
-- Qualidade não é apenas técnica, mas também percepção do cliente.
-- Investir em qualidade reduz custos e aumenta a confiabilidade do produto.
-- QA atua de forma preventiva, enquanto QC atua de forma corretiva.
-- O GitHub é uma ferramenta essencial para visibilidade profissional na área de tecnologia.
-- Networking é um fator chave para crescimento na carreira de QA.
+- Qualidade não é apenas técnica, mas também percepção do usuário.
+- Prevenir defeitos é mais barato do que corrigi-los em produção.
+- QA e QC são complementares, mas possuem focos diferentes.
+- Padrões de qualidade são essenciais para escala e consistência.
+- GitHub é uma ferramenta fundamental para construir um portfólio em QA.
+- Networking pode acelerar significativamente o crescimento profissional.
