@@ -1,209 +1,258 @@
-# Módulo 07 - Eventos Ágeis, DoR e DoD
+# Módulo 07 - Eventos Ágeis, DoR, DoD e Métricas
 
-## Objetivo
-Compreender o fluxo de trabalho ágil, eventos do Scrum, critérios de qualidade (DoR/DoD), estimativas, métricas e práticas fundamentais.
-
----
-
-## Fluxo de Trabalho Ágil
-
-### Eventos do Scrum
-
-**Principais:**
-- Sprint Planning
-- Daily
-- Sprint Review
-- Sprint Retrospective
-
-**Opcionais (mas valiosos):**
-- Refinamento de backlog
-- Três amigos
+## Objetivo do módulo
+Compreender o funcionamento do fluxo de trabalho ágil, os principais eventos do Scrum, o papel dos integrantes do time, além de aprender sobre critérios de entrada e saída (DoR e DoD), técnicas de estimativa, métricas ágeis e o papel do QA dentro desse contexto.
 
 ---
 
-### Objetivos dos eventos
-- Padronizar a comunicação
-- Reduzir reuniões desnecessárias
-- Garantir feedback contínuo
-- Aumentar colaboração
-- Dar transparência ao progresso
+## O que aprendi
+
+### Eventos do Scrum e fluxo ágil
+- Os eventos do Scrum organizam o fluxo de trabalho e garantem **cadência e alinhamento contínuo** entre o time
+- Eventos principais:
+  - **Planning (Planejamento da Sprint)**: definição do trabalho da Sprint
+  - **Daily (Reunião diária)**: acompanhamento do progresso
+  - **Review (Revisão)**: validação das entregas
+  - **Retrospective (Retrospectiva)**: melhoria contínua
+- Eventos opcionais, mas valiosos:
+  - **Refinamento (Refinement)**: detalhamento das histórias
+  - **Três amigos (BDD)**: alinhamento entre negócio, desenvolvimento e QA
+
+Destaques importantes:
+- Padronizam a comunicação do time
+- Reduzem a necessidade de reuniões adicionais
+- Promovem **feedback contínuo**
+- Aumentam a **colaboração**
+- Garantem **transparência das atividades**
 
 ---
 
-## Início do Projeto
+### Papéis e início do projeto ágil
+- Participantes dos eventos:
+  - Dev Team
+  - QA
+  - Product Owner (PO)
+  - Scrum Master (SM)
+  - Arquitetos
+  - UX
+  - Stakeholders
+  - Cliente
+  - Analista de Negócio
+- Início do projeto:
+  - **SM** apresenta metodologia e práticas
+  - **PO** apresenta o produto, objetivos e desafios
+  - Desenvolvedores apresentam suas expertises
+  - **QA** compartilha experiência e como contribuir com a qualidade
 
-### Papéis do time
-- **Scrum Master (SM):** apresenta a metodologia e facilita o processo
-- **Product Owner (PO):** apresenta o produto, objetivos e backlog
-- **Desenvolvedores:** compartilham expertise técnica
-- **QA:** define estratégia de qualidade e testes
-
----
-
-## Pré-jogo (Setup inicial)
-
-- Definição de horários e rituais
-- Treinamento de ferramentas e processos
-- Definição da arquitetura
-- Planejamento de automação de testes
-- Definição de critérios:
-  - Definition of Ready (DoR)
-  - Definition of Done (DoD)
-
----
-
-## Definition of Ready (DoR)
-
-Critérios para que uma história esteja pronta para desenvolvimento:
-
-- Protótipo disponível (quando aplicável)
-- Documentação de APIs disponível
-- Critérios de aceitação definidos
-- História refinada
-- Seguindo padrão INVEST
-- Alinhamento com a área de negócio
+Destaques importantes:
+- Alinhamento inicial é essencial
+- QA atua desde o início como agente de qualidade
 
 ---
 
-## Definition of Done (DoD)
+### Pré-jogo e preparação do time
+- Organização antes das Sprints:
+  - Definição de horários e dinâmica dos eventos
+  - Treinamentos em ferramentas e tecnologias
+  - Apresentação da arquitetura do sistema
+  - Definição da automação de testes
+  - Criação de artefatos e repositórios de testes
+  - Desenvolvimento de um módulo inicial para validação
+  - Definição de **DoR e DoD**
 
-Critérios para considerar uma entrega concluída:
-
-- Testes unitários com cobertura mínima (ex: 80%)
-- Testes automatizados dos critérios de aceitação
-- Cenários testados e aprovados (funcionais e não funcionais)
-- Documentação atualizada
-- Deploy realizado
-- APIs com Health Check (quando aplicável)
-
----
-
-## Planning e estimativas
-
-### Objetivo da Planning
-- Definir o escopo da Sprint
-- Estimar histórias
-- Identificar riscos
-- Garantir entendimento do time
+Destaques importantes:
+- Reduz riscos e retrabalho
+- Garante preparo do time antes do desenvolvimento
 
 ---
 
-### Planning Poker
+### Definition of Ready (DoR)
+- Define quando uma história está **pronta para desenvolvimento**
+- Exemplos:
+  - Protótipos anexados para interfaces
+  - Documentação de APIs disponível
+  - Critérios de aceitação definidos
+  - Histórias seguem padrão **INVEST**
+  - Histórias refinadas
+  - Alinhamento com a área de negócio
 
-Sequência utilizada: 0, 1, 2, 3, 5, 8, 13, 21...
-
-
-Cartas especiais:
-- `?` → dúvida sobre a história
-- `☕` → pausa / cansaço
-- `100` → história muito grande ou complexa
-
----
-
-### T-shirt Size
-
-| Tamanho | Estimativa |
-|--------|-----------|
-| PP     | Muito pequeno |
-| P      | Até 2h |
-| M      | 2 a 4h |
-| G      | 4 a 8h |
-| GG     | Muito grande |
+Destaques importantes:
+- Evita desenvolvimento com informações incompletas
+- Melhora a qualidade de entrada das tarefas
 
 ---
 
-## Pós-Planning (Atividades do QA)
+### Definition of Done (DoD)
+- Define quando uma história está **finalizada**
+- Exemplos:
+  - Cobertura mínima de testes unitários de **80%**
+  - Testes automatizados implementados
+  - Cenários de testes executados e aprovados
+  - Documentação atualizada
+  - APIs com Health Check
+  - Funcionalidade publicada em produção
 
-- Criar cenários de teste
-- Planejar execução dos testes
-- Definir massa de dados
-- Dividir testes em:
-  - Testes unitários
-  - Testes de integração
-  - Testes de interface (UI)
-
----
-
-## Daily (Reunião diária)
-
-### Objetivo
-Alinhar o time para as próximas 24 horas com foco na meta da Sprint.
-
-### Perguntas principais:
-- O que fiz ontem?
-- O que farei hoje?
-- Existe algum impedimento?
+Destaques importantes:
+- Garante qualidade na entrega
+- Evita falhas em produção
 
 ---
 
-## Burndown
+### Planning e estimativas
+- Objetivo: definir o trabalho da Sprint
+- Responsabilidades:
+  - Entender objetivo da Sprint
+  - Identificar riscos
+  - Estimar histórias de forma realista
+- Estimativas feitas em conjunto (**QA + Devs**)
 
-### Interpretação:
-- Linha abaixo da ideal → bom progresso
-- Linha acima → risco de atraso
+**Planning Poker:**
+- Sequência: 0, 1, 2, 3, 5, 8, 13...
+- Cartas representam esforço e complexidade
+- Cartas especiais:
+  - **0**: tarefa simples
+  - **100**: muito complexa
+  - **?**: dúvida
 
----
+**T-Shirt Size:**
+- Estimativa por tamanho:
+  - PP, P, M, G, GG
+- Baseado em esforço ou tempo
 
-## Sprint Review
-
-- Demonstração das entregas realizadas
-- Validação com o Product Owner
-- Verificação dos critérios de aceitação
-- Possível aprovação ou rejeição das histórias
-
----
-
-## Retrospectiva
-
-### Objetivo
-Promover melhoria contínua do time.
-
-### Perguntas:
-- O que funcionou bem?
-- O que não funcionou?
-- O que pode melhorar?
+Destaques importantes:
+- Estimativas devem ser colaborativas
+- Divergências devem ser discutidas até consenso
 
 ---
 
-## Refinamento de backlog
+### Pós-planning para QA
+- Atividades após o planejamento:
+  - Divisão em subtarefas
+  - Planejamento de testes
+  - Criação de cenários de testes
+  - Definição de massa de dados
+  - Planejamento de automação (unitário, integração, UI)
 
-- Preparar histórias para próxima Sprint
-- Detalhar requisitos
-- Identificar riscos
-- Garantir que histórias estejam prontas (DoR)
-
----
-
-## MVP (Minimum Viable Product)
-
-- Produto com o mínimo necessário para validar uma ideia
-- Permite aprendizado rápido
-- Foco em entrega de valor com baixo esforço
+Destaques importantes:
+- QA atua de forma estratégica
+- Organização melhora eficiência dos testes
 
 ---
 
-## Métricas ágeis
+### Daily e acompanhamento
+- Reunião diária com foco nas próximas 24 horas
+- Perguntas:
+  - O que fiz ontem?
+  - O que farei hoje?
+  - Existe impedimento?
 
-### Principais:
-- Burndown da Sprint
-- Velocidade do time
-- Fluxo cumulativo
-- Criado vs Resolvido
+**Burndown:**
+- Gráfico de acompanhamento da Sprint
+- Mostra trabalho restante e progresso ideal
 
-### Outras métricas:
-- Lead Time
-- Cycle Time
-- Cobertura de testes
-- Bugs escapados
-- Reincidência de bugs
+Destaques importantes:
+- Permite identificar atrasos rapidamente
+- Aumenta previsibilidade das entregas
 
 ---
 
-## Conclusão
+### Review e Retrospectiva
 
-O sucesso no ágil depende de:
-- Comunicação eficiente
-- Colaboração entre o time
-- Entregas contínuas de valor
-- Melhoria contínua
-- Qualidade integrada ao processo
+**Review:**
+- Apresentação das entregas ao final da Sprint
+- Validação dos critérios de aceite
+- Participação do PO e stakeholders
+
+**Retrospectiva:**
+- Identificação de melhorias
+- Discussão de pontos positivos e negativos
+- Definição de ações de melhoria
+
+Destaques importantes:
+- Review valida o produto
+- Retrospectiva melhora o processo
+
+---
+
+### Refinamento e MVP
+
+**Refinamento:**
+- Detalha o backlog para próximas Sprints
+- Identifica riscos e dependências
+
+**MVP (Minimum Viable Product):**
+- Produto com o mínimo necessário para validação
+- Permite ciclo **Construir–Medir–Aprender**
+
+Destaques importantes:
+- Refinamento reduz incertezas
+- MVP valida hipóteses com baixo custo
+
+---
+
+### Métricas ágeis
+- Métricas utilizadas:
+  - Burndown da Sprint
+  - Burndown de Épico
+  - Velocidade
+  - Fluxo cumulativo
+  - Criado vs Resolvido
+  - Lead time
+  - Cycle time
+  - Cobertura de testes
+  - Reincidência de bugs
+
+Destaques importantes:
+- Métricas ajudam na tomada de decisão
+- Permitem melhoria contínua
+- “O que não pode ser medido não pode ser gerenciado”
+
+---
+
+## Exercícios realizados
+
+### Análise do Kanban
+- Avaliação de um quadro com colunas:
+  - Backlog
+  - Análise
+  - Desenvolvimento
+  - Testes
+  - Feito
+
+Aplicações:
+- Identificação de problemas no fluxo
+- Análise de gargalos
+- Proposição de soluções de melhoria
+
+---
+
+### Papel do QA nos eventos ágeis
+- Atuação do QA em:
+  - Planning
+  - Daily
+  - Review
+  - Retrospectiva
+  - Refinamento
+
+Aplicações:
+- Atuação ativa do QA no processo
+- Prevenção de defeitos
+- Apoio na melhoria contínua
+
+---
+
+## Ferramentas utilizadas
+
+- Word / Google Docs
+
+---
+
+## Insights relevantes
+
+- A qualidade começa antes do desenvolvimento
+- O QA deve participar de todos os eventos ágeis
+- **DoR e DoD são essenciais para qualidade**
+- Estimativas devem ser colaborativas
+- Métricas são fundamentais para evolução do time
+- Feedback contínuo melhora o processo
+- QA atua como facilitador da qualidade
