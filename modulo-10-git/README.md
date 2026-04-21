@@ -158,7 +158,7 @@ Aplicações:
 
 - Git
 - GitHub
-- Editor de texto (VSCode, Notepad, Vim ou similar)
+- VSCode
 
 ---
 
