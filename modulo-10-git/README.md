@@ -142,6 +142,9 @@ Destaques importantes:
 Repositório do exercício:
 - https://github.com/eder-fr/aula-git-ebac
 
+Observação:
+- Repositório contendo a aplicação prática dos conceitos de versionamento com Git, incluindo clone, edição de arquivo e commit.
+
 Aplicações:
 - Uso do comando `git clone`
 - Edição de arquivos versionados
